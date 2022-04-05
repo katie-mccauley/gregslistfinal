@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<CarsService>();
+builder.Services.AddTransient<HousesService>();
 
 var app = builder.Build();
 
